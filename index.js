@@ -55,30 +55,30 @@ console.log(`i++, again, brings i to ${i}`);
 // For loops can take care of this in just 3 lines!
 console.log("**** Introducing the for-loop! ****");
 // TODO: change the for loop to iterate up to 10.
-for (let i = 0; i < 11; i++) {
-  console.log(`Now, i is ${i}.`);
-}
+//for (let i = 0; i < 11; i++) {
+//console.log(`Now, i is ${i}.`);
+//}
 
 // TODO: make a for loop that counts up to 25.
-for (let g = 0; g < 26; g++) {
-  console.log(`Now g is ${g}.`);
-}
+//for (let g = 0; g < 26; g++) {
+//console.log(`Now g is ${g}.`);
+//}
 
 // TODO: make a for loop that counts up to 50.
-for (let b = 0; b < 51; b++) {
-  console.log(`Now b is ${b}.`);
-}
+//for (let b = 0; b < 51; b++) {
+//console.log(`Now b is ${b}.`);
+//}
 
 // TODO: make a for loop that counts up to 100.
-for (let d = 0; d < 101; d++) {
-  console.log(`Now d is ${d}.`);
-}
+//for (let d = 0; d < 101; d++) {
+//  console.log(`Now d is ${d}.`);
+//}
 
 // TODO: make a for loop that counts up to 1001.
 
-for (let h = 0; h < 1002; h++) {
-  console.log(`Now h is ${h}.`);
-}
+//for (let h = 0; h < 1002; h++) {
+// console.log(`Now h is ${h}.`);
+//}
 
 // TODO: Add, Commit, Push!
 // TODO: Comment out the above so that they don't bother you as you do the rest of the assignment.
@@ -128,12 +128,31 @@ for (let i = 0; i < 4; i++) {
 }
 
 // TODO: make a new array of zooAnimals. Use a loop to print them all to the console.
+let zooAnimals = ["tiger", "lion", "snake", "zebra", "bear"]
+console.log("**** zoo animals ****")
+
+for (let a = 0; a < 5; a++) {
+  console.log(zooAnimals[a]);
+}
 // Bonus: Can you think of a use for array.length in the for loop?
 
 // TODO: make a new array of sports teams. Use a loop to print them all to the console.
+let sportsteams = ["colts", "pats", "cheifs", "49ers", "ravens", "jets", "giants"]
+console.log("**** Sports Teams ***");
+
+for (let t = 0; t < 7; t++) {
+  console.log(sportsteams[t]);
+}
 // Bonus: Can you think of a use for array.length in the for loop?
 
 // TODO: make a new array of anything else. Use a loop to print them all to the console.
+let cars = ["bugatti", "corrvette", "viper", "mustang", "maxima", "GTR", "NSX", "is350"]
+console.log("**** Cars ****")
+for (let v = 0; v < 8; v++) {
+  console.log(cars[v]);
+}
+
+
 // Bonus: Can you think of a use for array.length in the for loop?
 
 // TODO: Add, Commit, Push!
