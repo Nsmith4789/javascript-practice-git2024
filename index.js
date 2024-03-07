@@ -169,6 +169,11 @@ console.log(animals);
 // so all the values are "-".
 let board = ["X", "O", "X", "O", "X", "O", "X", "O", "X"];
 console.log(board);
+for (let e = 0; e < board.length; e++) {
+  board[e] = "-";
+}
+console.log(board)
+
 
 // TODO: Use a for loop to reset the battlship board so all the values are open ocean. ("o")
 board = [
@@ -178,6 +183,11 @@ board = [
   "S", "o", "o", "o",
 ];
 console.log(board);
+for (let i = 0; i < board.length; i++) {
+  board[i] = "o";
+}
+console.log(board)
+
 
 // TODO: Add, Commit, Push!
 
@@ -189,6 +199,8 @@ board = [
   "S", "C", "C", "C",
   "S", "o", "o", "o",
 ];
+
+
 
 // Example: We can use a while loop in a for loop.
 // Just nest them and make sure you
@@ -247,7 +259,6 @@ for (let i = 0; i < board.length; i++) {
   }
 }
 console.log(board);
-
 // TODO: Sink the Destroyer (D)
 
 // TODO: Sink the Cruiser (C)
