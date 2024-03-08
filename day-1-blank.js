@@ -203,9 +203,24 @@ for (let i = 0; i < board.length; i++) {
 console.log(board);
 
 // TODO: Sink the Destroyer (D)
+for (let i = 0; i < board.length; i++) {
+  if (board[i] === "D") {
+    board[i] = "X"
+  }
+}
+console.log(board)
 
 // TODO: Sink the Cruiser (C)
-
+for (let i = 0; i < board.length; i++) {
+  if (board[i] === "C") {
+    board[i] = "X"
+  }
+}
+console.log(board)
 // TODO: reset the board to open ocean again.
+for (let i = 0; i < board.length; i++) {
+  board[i] = "o"
+}
+console.log(board);
 
 // Bonus: Think of a new application of what we did today. Write a TODO for yourself. It should be similar to what we did, but add your own twist. Try it out, and lets us know how it when with a quick message in the Slack channel!
