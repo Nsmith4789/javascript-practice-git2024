@@ -115,7 +115,11 @@ console.log(animals);
 // TODO: Use a for loop to reset the tic-tac-toe board,
 // so all the values are "-".
 let board = ["X", "O", "X", "O", "X", "O", "X", "O", "X"];
+for (let i = 0; i < board.length; i++) {
+  board[i] = "-";
+}
 console.log(board);
+
 
 // TODO: Use a for loop to reset the battlship board so all the values are open ocean. ("o")
 board = [
@@ -124,6 +128,9 @@ board = [
   "S", "C", "C", "C",
   "S", "o", "o", "o",
 ];
+for (let i = 0; i < board.length; i++) {
+  board[i] = "o"
+}
 console.log(board);
 
 // TODO: Add, Commit, Push!
